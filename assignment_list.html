@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Assignment List</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  .nav{
+    background-color: white;
+    margin-bottom: 20px;
+    overflow: hidden;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.nav a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    color: black;
+
+    text-decoration: none;
+    font-weight: bold;
+}
+  .card {
+    padding: 20px;
+    background-color: #123;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .assignment-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+  }
+  .assignment-details {
+    color: white;
+    margin-bottom: 10px;
+  }
+  .due-date {
+    font-style: italic;
+  }
+  .view-link {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .view-link:hover {
+    background-color: #45a049;
+  }
+</style>
+</head>
+<body>
+  <div class="nav">
+    <a href="index.html" > HOME</a>
+</div> 
+  <div class="card">
+    <div class="assignment-title">Assignment 1</div>
+    <div class="assignment-details">
+      <p><strong>COURSE CODE:</strong> EEC410</p>
+      <p><strong>Due Date:</strong> <span class="due-date">May 10, 2024</span></p>
+    </div>
+    <a href="ass1.html" class="view-link">View Details</a>
+  </div>
+  
+  <div class="card">
+    <div class="assignment-title">Assignment 2</div>
+    <div class="assignment-details">
+      <p><strong>COURSE CODE:</strong> EEC410</p>
+      <p><strong>Due Date:</strong> <span class="due-date">NOT DUE FOR SUBMISSION</span></p>
+    </div>
+    <a href="ass2.html" class="view-link">View Details</a>
+  </div>
+  <div class="card">
+    <div class="assignment-title">Assignment 3</div>
+    <div class="assignment-details">
+      <p><strong>COURSE CODE:</strong> EEC410</p>
+      <p><strong>Due Date:</strong> <span class="due-date">NOT DUE FOR SUBMISSION</span></p>
+    </div>
+    <a href="ass3.html" class="view-link">View Details</a>
+  </div>
+  
+</body>
+</html>
